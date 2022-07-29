@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created(){
+    console.log('1111111111111111111' , !!(process.env.NODE_ENV === "production"))
   }
 }
 </script>
